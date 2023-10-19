@@ -56,7 +56,7 @@ const config = {
   experiences: [
     {
       company: 'SESI Innovation Center in Technologies for Health and Safety at Work',
-      position: 'Internship',
+      position: 'Artificial Intelligence Developer Internship',
       from: 'February 2022',
       to: 'August 2022',
       companyLink: 'http://www.cis.sesims.com.br/',

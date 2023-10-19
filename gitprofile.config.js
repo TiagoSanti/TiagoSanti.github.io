@@ -80,7 +80,7 @@ const config = {
       name: 'Arduino Mini Course',
       body: 'Development of Guidance and Training Activities in Computer Systems at Federal University of Mato Grosso do Sul | 30 total hours',
       year: 'July 2019',
-      link: '' // To do
+      link: 'https://github.com/TiagoSanti/tiagosanti.github.io/blob/main/public/pdf/Arduino%20Mini%20Course.pdf'
     },
     {
       name: 'Artificial Neural Networks in Python',
@@ -92,7 +92,7 @@ const config = {
       name: 'Scholarship in Technological Development and Innovation (PIBITI)',
       body: 'Project "Deep Learning Applied to Water Level Measurement in Urban Streams Using Images" | Federal University of Mato Grosso do Sul | 1,040 total hours',
       year: 'July 2021 - August 2022',
-      link: '' // To do
+      link: 'https://github.com/TiagoSanti/tiagosanti.github.io/blob/main/public/pdf/PIBITI%20-%20Deep%20Learning.pdf'
     },
     {
       name: 'Complete C# Object-Oriented Programming + Projects',
@@ -104,7 +104,7 @@ const config = {
       name: 'Participation Certification in CBSoft 2023 by the Brazilian Computer Society',
       body: 'Participation in the XIV Brazilian Congress on Software: Theory and Practice (CBSoft 2023). The event took place from September 25th to 29th in Campo Grande - MS | 40 total hours',
       year: 'September 2023',
-      link: '' // To do
+      link: 'https://github.com/TiagoSanti/tiagosanti.github.io/blob/main/public/pdf/XIV%20CBSoft%202023.pdf'
     },
     
   ],

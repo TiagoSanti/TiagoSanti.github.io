@@ -2,31 +2,31 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'TiagoSanti', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['tiagosanti.github.io', 'TiagoSanti'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'tiago-santi',
+    twitter: '',
+    mastodon: '',
     facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    instagram: 'tiagocsanti',
+    youtube: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
+    medium: 'tiagosanti',
     dev: 'arifszn',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'tiagosanti.github.io',
+    phone: '+55 (67) 99699-6687',
+    email: 'tiagosanti2009@gmail.com',
   },
   resume: {
     fileUrl:

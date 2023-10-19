@@ -20,7 +20,7 @@ const config = {
     dribbble: '',
     behance: '',
     medium: 'tiagosanti',
-    dev: 'arifszn',
+    dev: 'tiagosanti',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
@@ -30,23 +30,26 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1G5ZiywkY32xk43mkpnILHanXmXsKp72v/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python - Pandas | Numpy | FastAPI | Scikit Learn',
+    'C#',
+    'C',
+    'Java - Android App Development',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'SQL',
     'Git',
+    'GitHub',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Scrum | Kanban',
+    'Artificial Intelligence | Machine Learning',
+    'Deep Learning | Artificial Neural Networks',
+    'Web Scrapping',
+    'Data Science - Data Collection | Data Analysis | Data Cleaning',
+    'Computer Vision | Image Processing | Object Detection',
+    'Natural Language Processing | Sentiment Analysis',
+    'Cloud Computing | GCP | GCS | BigQuery | Looker Studio | Compute Engine | App Engine',
   ],
   experiences: [
     {
@@ -106,8 +109,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -119,7 +122,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'forest',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode

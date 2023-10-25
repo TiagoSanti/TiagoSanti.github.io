@@ -89,45 +89,39 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
           } catch (error) {
             console.error(error);
           }
-
+  
           window?.open(item.link, '_blank');
         }}
       >
-        <div className="p-8 h-full w-full">
-          <div className="flex items-center flex-col">
-            <div className="w-full">
-              <div className="px-4">
-                <div className="text-center w-full">
-                  <h2 className="font-semibold text-lg tracking-wide text-center opacity-60 mb-2">
-                    {item.title}
-                  </h2>
-                  {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-20 h-20 mask mask-squircle">
-                        <LazyImage
-                          src={item.imageUrl}
-                          alt={'thumbnail'}
-                          placeholder={skeleton({
-                            width: 'w-full',
-                            height: 'h-full',
-                            shape: '',
-                          })}
-                        />
-                      </div>
-                    </div>
-                  )}
-                  <p className="mt-1 text-base-content text-opacity-60 text-sm">
-                    {item.description}
-                  </p>
-                </div>
+        <div className="p-8 h-full w-full flex items-center">
+          {item.imageUrl && (
+            <div className="avatar opacity-90 mr-4">
+              <div className="w-20 h-20 mask mask-squircle">
+                <LazyImage
+                  src={item.imageUrl}
+                  alt={'thumbnail'}
+                  placeholder={skeleton({
+                    width: 'w-full',
+                    height: 'h-full',
+                    shape: '',
+                  })}
+                />
               </div>
             </div>
+          )}
+          <div>
+            <h2 className="font-semibold text-lg tracking-wide text-center opacity-60 mb-2">
+              {item.title}
+            </h2>
+            <p className="mt-1 text-base-content text-opacity-60 text-sm">
+              {item.description}
+            </p>
           </div>
         </div>
       </a>
     ));
   };
-
+  
   return (
     <Fragment>
       {displaySection(externalProjects) && (
@@ -148,7 +142,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
                     </h5>
                   </div>
                   <div className="col-span-2">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
                       {loading ? renderSkeleton() : renderExternalProjects()}
                     </div>
                   </div>

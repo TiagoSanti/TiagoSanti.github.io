@@ -123,21 +123,27 @@ const config = {
     },
   ],
 
-  // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: '</pantanal.dev> - Machine Learning module',
+      title: '</pantanal.dev> - Data Science module - Jun/2023',
+      description:
+        '</pantanal.dev> is an intensive training initiative in cutting-edge technologies, aimed at enhancing talents from the central region of Brazil and connecting these professionals to remote work opportunities in the national financial sector. The Federal University of Mato Grosso do Sul leads the program, partnering with renowned companies such as B3, PDtec, BLK, and Neoway. In this module, the proposed challenge was to detect credit card fraud using statistical techniques and, based on these insights, create a product that would contribute to solving this issue. We began with an in-depth market research, seeking to understand the needs, objectives, and the satisfaction level of professionals in the sector with the available tools. Next, we conducted dynamics to align expectations regarding the project and shape the product vision. We set clear goals, activities to be carried out, modeled the business process, and established strict development standards. The result was "4banks", a data analysis platform designed to serve data scientists focused on detecting fraud in financial entities. Through 4banks, users have the ability to delve into credit card transaction data, obtaining everything from general analyses to deeper and more specific insights. By integrating solid Software Engineering principles at every stage of the project, we were able to deliver an excellent product, agilely and efficiently, aligned with the best market practices. This commitment to quality was crucial for us to achieve victory in this module.',
+      imageUrl: 'https://pantanal.dev/img/icon-onca-1.png',
+      link: 'https://github.com/4Banks',
+    },
+    {
+      title: '</pantanal.dev> - Machine Learning module - Apr/2023',
       description:
         '</pantanal.dev> is an intensive training initiative in cutting-edge technologies, aimed at enhancing talents from the central region of Brazil and connecting these professionals to remote work opportunities in the national financial sector. The Federal University of Mato Grosso do Sul leads the program, partnering with renowned companies such as B3, PDtec, BLK, and Neoway. In the first module, participants were challenged to employ advanced Natural Language Processing techniques. The goal was to train a sentiment classifier and create a product capable of analyzing the sentiment present in financial market news. Under the guidance of an expert from B3, my team developed "Tuiaia". This platform gathers information from esteemed financial sources, such as Google News, InfoMoney, and Forbes, and assesses the sentiment of the news, classifying them as negative, neutral, or positive. Aiming to innovate and elevate the standard of our product, we incorporated the analysis of the news\' impact degree (low, neutral, high) and the estimated duration of this impact (short, neutral, long). Additionally, we designed an interactive dashboard that displays the results of the analyses over time. In recognition of its importance and innovation, the project received an Honorable Mention.',
       imageUrl: 'https://pantanal.dev/img/icon-arara-1.png',
       link: 'https://github.com/Tuiaia',
     },
     {
-      title: '</pantanal.dev> - Data Science module',
+      title: 'Undergraduate Research - Deep Learning Applied to Water Level Measurement in Urban Streams Using Images - Sep/2021',
       description:
-        '</pantanal.dev> is an intensive training initiative in cutting-edge technologies, aimed at enhancing talents from the central region of Brazil and connecting these professionals to remote work opportunities in the national financial sector. The Federal University of Mato Grosso do Sul leads the program, partnering with renowned companies such as B3, PDtec, BLK, and Neoway. In this module, the proposed challenge was to detect credit card fraud using statistical techniques and, based on these insights, create a product that would contribute to solving this issue. We began with an in-depth market research, seeking to understand the needs, objectives, and the satisfaction level of professionals in the sector with the available tools. Next, we conducted dynamics to align expectations regarding the project and shape the product vision. We set clear goals, activities to be carried out, modeled the business process, and established strict development standards. The result was "4banks", a data analysis platform designed to serve data scientists focused on detecting fraud in financial entities. Through 4banks, users have the ability to delve into credit card transaction data, obtaining everything from general analyses to deeper and more specific insights. By integrating solid Software Engineering principles at every stage of the project, we were able to deliver an excellent product, agilely and efficiently, aligned with the best market practices. This commitment to quality was crucial for us to achieve victory in this module.',
-      imageUrl: 'https://pantanal.dev/img/icon-onca-1.png',
-      link: 'https://github.com/4Banks',
+        'Flooding is one of the most dangerous natural phenomena (WMO, 2011), causing economic, social, and health damages. The occurrence of this phenomenon has significantly increased in the last 20 years, related to rapid urbanization and climate changes that heighten the risk of floods, thus making it essential to monitor urban watercourses. This project proposes measuring the water level in urban streams using security cameras and deep learning algorithms. To achieve this goal, convolutional neural networks, a class of artificial neural networks in the deep learning area, have been widely applied in image processing with success, and therefore were the essential tool for the results obtained so far. In this study, we used the YOLOv5 object detection method, which allows for quick results, which is crucial in flood situations. Combined with a database of images labeled with water levels, a convolutional neural network was trained to predict the graphical location of the watercourse\'s height. In the test images, an F-score of 0.996 was achieved considering an AP50. It is hoped that the results can be used for the construction of low-cost monitoring and flood warning systems, given that the equipment traditionally used for water level measurement requires a risky installation located in the watercourse and also presents a risk of losing these costly devices during a severe flooding event. Moreover, the collected images can provide both quantitative and qualitative information about the monitored watercourse and its surroundings for various purposes, such as civil defense.',
+      imageUrl: './public/object-detection.png',
+      link: 'https://www.youtube.com/watch?v=-DES1Fr1B-c',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
@@ -215,11 +221,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a>`,
+  footer: `Made with <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a> | Object icons created by <a class="text-primary" href="https://www.flaticon.com/free-icons/object" title="object icons"> juicy_fish - Flaticon</a>`,
 };
 
 export default config;

@@ -117,7 +117,7 @@ const config = {
     },
     {
       institution: 'Federal University of Mato Grosso do Sul',
-      degree: 'Software Engineering Bachelor | GPA: 9.025/10.0 | 66.94% completed',
+      degree: 'Software Engineering Bachelor | GPA: 9.02/10.0 | 90.44% completed',
       from: '2021',
       to: 'Present',
     },
